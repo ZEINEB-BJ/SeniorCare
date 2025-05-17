@@ -1,0 +1,32 @@
+name: senior_care
+description: Une application d’assistance pour les personnes âgées.
+
+publish_to: 'none' # L'application est en développement, pas publiée.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Pour l'UI
+  cupertino_icons: ^1.0.2
+  uuid: ^4.2.1
+  http: ^0.13.5
+  google_generative_ai: ^0.0.1-dev
+  # Packages utiles (que tu peux ajouter si tu veux améliorer plus tard)
+  # fluttertoast: ^8.2.1
+  # provider: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  
