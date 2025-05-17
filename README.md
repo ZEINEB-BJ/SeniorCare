@@ -22,11 +22,11 @@ Faciliter la gestion du quotidien et du suivi médical des personnes âgées à 
 ##  Technologies utilisées
 
 ###  Front-end
-- [Flutter](https://flutter.dev/) (Dart)
+- [`/frontend`](./frontend) (Dart)
 
 
 ###  Back-end
-- [Spring Boot](https://spring.io/projects/spring-boot) (Java)
+- [`/backend`](./backend) (Java)
 
 
 ###  Base de données
